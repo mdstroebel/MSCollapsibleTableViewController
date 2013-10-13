@@ -95,7 +95,12 @@
     /**************************************************************************
         Start of sample toggling code:
      
-        This sets up the tap gesture recognizer for the header view to organise the collapsing 
+        This sets up the tap gesture recognizer for the header view to organise 
+        the collapsing.
+     
+        You can use [self toggleCollapseSection:sectionNumber]; anywhere to toggle
+        the collapsing of a section. This is just an example of adding a tap gesture
+        recognizer to the header view of each section.
      
      **************************************************************************/
     
