@@ -18,6 +18,9 @@
 		CC0BA9B31809A399006F7A78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0BA9B21809A399006F7A78 /* Default@2x.png */; };
 		CC0BA9B51809A399006F7A78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0BA9B41809A399006F7A78 /* Default-568h@2x.png */; };
 		CC0BA9B81809A399006F7A78 /* MSCollapsibleTableViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC0BA9B61809A399006F7A78 /* MSCollapsibleTableViewController.xcdatamodeld */; };
+		CC0BA9BF1809A3BE006F7A78 /* TestStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0BA9BE1809A3BE006F7A78 /* TestStoryboard.storyboard */; };
+		CC0BA9C21809A3E0006F7A78 /* MSCollapsibleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0BA9C11809A3E0006F7A78 /* MSCollapsibleTableViewController.m */; };
+		CC0BA9C5180AB843006F7A78 /* MSTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0BA9C4180AB843006F7A78 /* MSTestTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,11 @@
 		CC0BA9B21809A399006F7A78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CC0BA9B41809A399006F7A78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CC0BA9B71809A399006F7A78 /* MSCollapsibleTableViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MSCollapsibleTableViewController.xcdatamodel; sourceTree = "<group>"; };
+		CC0BA9BE1809A3BE006F7A78 /* TestStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestStoryboard.storyboard; sourceTree = "<group>"; };
+		CC0BA9C01809A3E0006F7A78 /* MSCollapsibleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCollapsibleTableViewController.h; sourceTree = "<group>"; };
+		CC0BA9C11809A3E0006F7A78 /* MSCollapsibleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCollapsibleTableViewController.m; sourceTree = "<group>"; };
+		CC0BA9C3180AB843006F7A78 /* MSTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTestTableViewController.h; sourceTree = "<group>"; };
+		CC0BA9C4180AB843006F7A78 /* MSTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTestTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 				CC0BA9AE1809A399006F7A78 /* MSAppDelegate.m */,
 				CC0BA9B61809A399006F7A78 /* MSCollapsibleTableViewController.xcdatamodeld */,
 				CC0BA9A51809A399006F7A78 /* Supporting Files */,
+				CC0BA9BE1809A3BE006F7A78 /* TestStoryboard.storyboard */,
+				CC0BA9C01809A3E0006F7A78 /* MSCollapsibleTableViewController.h */,
+				CC0BA9C11809A3E0006F7A78 /* MSCollapsibleTableViewController.m */,
+				CC0BA9C3180AB843006F7A78 /* MSTestTableViewController.h */,
+				CC0BA9C4180AB843006F7A78 /* MSTestTableViewController.m */,
 			);
 			path = MSCollapsibleTableViewController;
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 				CC0BA9B11809A399006F7A78 /* Default.png in Resources */,
 				CC0BA9B31809A399006F7A78 /* Default@2x.png in Resources */,
 				CC0BA9B51809A399006F7A78 /* Default-568h@2x.png in Resources */,
+				CC0BA9BF1809A3BE006F7A78 /* TestStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +189,8 @@
 				CC0BA9AB1809A399006F7A78 /* main.m in Sources */,
 				CC0BA9AF1809A399006F7A78 /* MSAppDelegate.m in Sources */,
 				CC0BA9B81809A399006F7A78 /* MSCollapsibleTableViewController.xcdatamodeld in Sources */,
+				CC0BA9C21809A3E0006F7A78 /* MSCollapsibleTableViewController.m in Sources */,
+				CC0BA9C5180AB843006F7A78 /* MSTestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

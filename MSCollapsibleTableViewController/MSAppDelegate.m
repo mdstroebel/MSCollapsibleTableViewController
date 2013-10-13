@@ -16,10 +16,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"TestStoryboard" bundle:[NSBundle mainBundle]];
+    UIViewController *vc =[storyboard instantiateInitialViewController];
+    
+    // Set root view controller and make windows visible
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
