@@ -11,11 +11,3 @@ super version of that method. This will allow the toggling to take place when ne
 section).
 
 There is a "toggleCollapseSection" method exposed on the header to actually collapse/expand a specific section.
-
-
-NOTE:
-
-I have just updated the license on the main class so that it can be redistributed, used, changed, etc in accordance 
-with the Apache License (2.0). http://www.apache.org/licenses/LICENSE-2.0
-
-I will update the remainder of the sample code once I get a chance at home.
